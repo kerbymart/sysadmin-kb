@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="sd"
+                 name="Sysadmin Docs"
+                 start-page="Expanding-Disk-Space-on-Linux-Guest-VMs-with-LVM-on-Hyper-V.md">
+
+    <toc-element topic="Expanding-Disk-Space-on-Linux-Guest-VMs-with-LVM-on-Hyper-V.md">
+        <toc-element topic="Expanding-Disk-Space-Linux-Guest-VM-Overview.md"/>
+        <toc-element topic="Expanding-Disk-Space-Linux-Guest-VMs-Quick-Steps.md">
+            <toc-element topic="Determining-if-Linux-VM-is-using-LVM.md"/>
+            <toc-element topic="If-Using-LVM.md">
+                <toc-element topic="Expanding-Disk-Space-on-Linux-Guest-VMs-Resize-the-Filesystem.md"/>
+                <toc-element topic="Extend-the-Logical-Volume.md"/>
+                <toc-element topic="Resize-the-Physical-Volume.md"/>
+                <toc-element topic="Verifying-the-New-Disk-Size-with-lsblk.md"/>
+            </toc-element>
+            <toc-element topic="If-Not-Using-LVM.md">
+                <toc-element topic="If-Not-Using-LVM-Resize-Partition.md"/>
+                <toc-element topic="If-Not-Using-LVM-Resize-the-Filesystem.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element topic="Expand-Disk-Space-on-Linux-Guest-VMs-Troubleshooting.md"/>
+    </toc-element>
+</instance-profile>
